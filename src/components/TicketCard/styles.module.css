@@ -1,0 +1,14 @@
+.container {
+  padding: 20px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin: 0;
+  color: #2196f3;
+  font-size: 24px;
+}

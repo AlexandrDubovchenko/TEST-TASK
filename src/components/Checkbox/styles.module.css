@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px 20px;
+}
+
+.container:hover {
+  background: #f1fcff;
+}
+
+.checkbox + .custom {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9abbce;
+  border-radius: 2px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 80% 50%;
+}
+
+.checkbox:checked + .custom {
+  border: 1px solid #2196f3;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath d='M4.28571 8L0 4.16123L1.20857 3.0787L4.28571 5.82726L10.7914 0L12 1.09021L4.28571 8Z' fill='%232196F3'/%3e%3c/svg%3e");
+}

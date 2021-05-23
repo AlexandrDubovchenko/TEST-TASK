@@ -1,0 +1,19 @@
+.container {
+  outline: none;
+  border: 1px solid #dfe5ec;
+  background: #ffffff;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  background: #2196f3;
+  color: #fff
+}
+.active:hover {
+  background: #2196f3;
+}
